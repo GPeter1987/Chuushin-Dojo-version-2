@@ -65,3 +65,20 @@
 .btn3:hover::before, .btn4:hover::before {
   height:0%;
 }
+
+#ctaButton {
+  text-decoration: none;
+  font-family: Oswald;
+  font-size: 30px;
+  margin-left: 18rem;
+  border: 1px solid #36374b;
+  border-radius: 15px;
+  padding:10px;
+  background-color:#36374b;
+  color:#ffffff;
+}
+
+#ctaButton:hover {
+  background-color:#613942;
+  color:#ffffff;
+}

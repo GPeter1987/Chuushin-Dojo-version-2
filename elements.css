@@ -6,9 +6,9 @@ body {
 }
 
 #container {
-  margin-left: 8rem;
-  align-items: center;
+  margin-left:8rem;
   width: 1000px;
+  align-items: center;
 }
 
 #navBarEnd {
@@ -56,11 +56,17 @@ hr {
 }
 
 footer {
-  position:absolute;
-  bottom:0;
+  display: block;
+  height: 50px;
   width:100%;
   max-width: 1000px;
   background-color:rgba( 36, 37, 48, 0.2);
+  margin-top: 35px;
+}
+
+footer p {
+  padding: 15px;
+  color: #36374b;
 }
 
 #slideShow {
@@ -69,3 +75,28 @@ footer {
   height:500px;
   background-size: cover;
 }
+
+.avatarPic {
+  width:300px;
+  height:auto;
+  margin:10px;
+  float:left;
+}
+
+h1 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 50px;
+  color: #36374b;
+}
+
+#container p {
+  font-family: Montserrat;
+  font-size: 20px;
+  color: #36374b;
+}
+
+#container p:last-of-type {
+  margin-bottom:35px;
+}
+

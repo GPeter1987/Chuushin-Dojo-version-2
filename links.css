@@ -9,4 +9,14 @@
   color: #ffffff;
 }
 
+.textLink {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #36374b;
+  border-radius: 5px;
+  padding:2px;
+}
 
+.textLink:hover {
+  background-color: #613942;
+}
