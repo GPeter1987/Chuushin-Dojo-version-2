@@ -1,0 +1,12 @@
+/* Navigation button links */
+
+#navBar a {
+  text-decoration: none;
+  color: #613942;
+}
+
+#navBar a:hover {
+  color: #ffffff;
+}
+
+

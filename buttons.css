@@ -1,0 +1,67 @@
+/* Button designs */
+
+.btn{
+  /* border: 1px solid #36374b; */
+  background: none;
+  padding: 10px 20px;
+  font-size:25px;
+  font-family: "Oswald";
+  cursor: pointer;
+  margin:10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+}
+
+/***** Button text colors *****/
+
+.btn1, .btn2 {
+  color: #36374b;
+}
+
+.btn3, .btn4 {
+  color: #ffffff;
+}
+
+/* Button text color while on hover */
+
+.btn1:hover, .btn2:hover {
+  color: #ffffff;
+}
+
+.btn3:hover, .btn4:hover {
+  color: #36374b;
+}
+
+.btn::before {
+  content:"";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #36374b;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+.btn1::before, .btn3::before {
+  top: 0;
+  border-radius:0 0 50% 50%;
+}
+
+.btn2::before, .btn4::before {
+  bottom: 0;
+  border-radius: 50% 50% 0 0;
+}
+
+.btn3::before, .btn4::before {
+  height: 100%;
+}
+
+.btn1:hover::before, .btn2:hover::before {
+  height:100%;
+}
+
+.btn3:hover::before, .btn4:hover::before {
+  height:0%;
+}

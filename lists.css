@@ -1,0 +1,25 @@
+#navBar ul {
+  text-align: center;
+}
+
+li {
+  display: inline;
+}
+
+#navBar li {
+  padding: 15px;
+  margin: 15px;
+  
+}
+
+/* Active button text colors */
+
+#navBar .btn3 a {
+  color: #ffffff;
+}
+
+#navBar .btn3 a:hover {
+  color: #613942;
+}
+
+/*----------------------------*/
