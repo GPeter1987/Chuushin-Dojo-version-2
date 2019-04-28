@@ -11,3 +11,4 @@
  - Hungarian
   
 # Live version
+https://gpeter1987.github.io/Chuushin-Dojo-version-2/
