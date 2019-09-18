@@ -70,12 +70,15 @@
   text-decoration: none;
   font-family: Oswald;
   font-size: 30px;
-  margin-left: 18rem;
   border: 1px solid #36374b;
   border-radius: 15px;
   padding:10px;
   background-color:#36374b;
   color:#ffffff;
+  margin-left:420px;
+}
+.ctaButton1 {
+  margin-left: 150px;
 }
 
 #ctaButton:hover {
