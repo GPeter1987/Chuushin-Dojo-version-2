@@ -16,3 +16,8 @@ form {
   color: #613942;
   border-radius: 25px;
 }
+
+textarea {
+  width:435px;
+  height:200px;
+}
