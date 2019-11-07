@@ -51,6 +51,25 @@ hr {
   background-size: cover;
 }
 
+#contentTitle {
+  text-align: center;
+  
+}
+
+.news {
+  display:inline-block;
+  width: 25%;
+  text-align: center;
+  margin-left:4%;
+  margin-right: 4%;
+  
+}
+
+.nsb {
+  background-color: #36374b;
+  
+}
+
 .copyright {
   font-family:'Montserrat';
   text-align: center;
