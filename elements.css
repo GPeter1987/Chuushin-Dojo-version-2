@@ -62,12 +62,11 @@ hr {
   text-align: center;
   margin-left:4%;
   margin-right: 4%;
-  
+  padding 5px;
 }
 
 .nsb {
-  background-color: #36374b;
-  
+  background-color: #36374b; 
 }
 
 .copyright {
@@ -112,6 +111,14 @@ h1 {
   color: #36374b;
 }
 
+h2 {
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 35px;
+  color: #36374b;
+  
+}
+
 #container p {
   font-family: Montserrat;
   font-size: 20px;
@@ -120,5 +127,27 @@ h1 {
 
 #container p:last-of-type {
   margin-bottom:35px;
+}
+
+.nsb h2{
+  color: white;
+}
+
+#container .nsb p{
+  color: white;
+}
+
+.nsb a {
+  text-decoration: none;
+  color: white;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  padding: 5px;
+}
+
+.nsb a:hover {
+  font-size: 25px;
+  transition: 0.4s;
+  
 }
 
